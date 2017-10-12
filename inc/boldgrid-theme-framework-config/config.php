@@ -48,12 +48,12 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		array(
 			'default' => true,
 			'format' => 'palette-primary',
-			'neutral-color' => '#ffffff',
+			'neutral-color' => '#1f1f1f',
 			'colors' => array(
-				'#8bbe1d',
-				'#0047ab',
-				'#0047ab',
-				'#8bbe1d',
+				'#f1f1f1',
+				'#656565',
+				'#333333',
+				'#787878',
 				'#2a2a2a',
 			),
 		),
@@ -160,22 +160,22 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['customizer-options']['typography']['enabled'] = true;
 
 	// Typography Headings.
-	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_font_family'] = 'Heebo';
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_font_family'] = 'Nosifer';
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_font_size'] = 18;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_text_transform'] = 'uppercase';
 
 	// Typography Alternate Headings.
-	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_font_family'] = 'Heebo';
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_font_family'] = 'Papyrus';
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_font_size'] = 47;
-	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_text_transform'] = 'uppercase';
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_text_transform'] = 'capitalize';
 
 	// Typography Navigation.
-	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['navigation_font_family'] = 'Heebo';
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['navigation_font_family'] = 'Lobster';
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['navigation_font_size'] = 17;
-	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['navigation_text_transform'] = 'uppercase';
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['navigation_text_transform'] = 'lowercase';
 
 	// Typography Body.
-	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_family'] = 'Lato';
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_family'] = '';
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_size'] = 16;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_line_height'] = 175;
 
