@@ -52,7 +52,7 @@ h6 {
 	margin: .25em 0;
 }
 p {
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
 /*-----------------------------------------------
@@ -70,7 +70,7 @@ a,
 #footer-center-menu a,
 #menu-social li a:hover,
 #menu-social li a:focus {
-	text-decoration: none;
+	text-decoration: line-through;
 }
 .site-footer a,
 .entry-footer a,
@@ -88,7 +88,7 @@ a,
 a.url,
 a.comment-edit-link,
 .widget ul#recentcomments > li > a {
-	text-decoration: underline;
+	text-decoration: line-through;
 }
 a:focus,
 a:hover,
