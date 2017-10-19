@@ -103,7 +103,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		),
 		array(
 			'format' => 'palette-primary',
-			'neutral-color' => '#12131a',
+			'neutral-color' => '#000000',
 			'colors' => array(
 				'#03c9a9',
 				'#544359',
